@@ -14,9 +14,17 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { SearchBarComponent } from './search-bar/search-bar.component';
 import { HomeComponent } from './home/home.component';
 import { HttpParamsInterceptor } from './http-interceptors/http-params.interceptor';
+import { DetailsComponent } from './details/details.component';
+import { GameTabsComponent } from './game-tabs/game-tabs.component';
 
 @NgModule({
-  declarations: [AppComponent, SearchBarComponent, HomeComponent],
+  declarations: [
+    AppComponent,
+    SearchBarComponent,
+    HomeComponent,
+    DetailsComponent,
+    GameTabsComponent,
+  ],
   imports: [
     BrowserModule,
     AppRoutingModule,

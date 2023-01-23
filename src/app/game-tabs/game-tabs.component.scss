@@ -1,0 +1,45 @@
+.game {
+  &-tabs {
+    background-color: lightskyblue;
+    text-align: left;
+    color: black;
+    &-par {
+      padding: 20px 20px 0 20px;
+    }
+    &-link {
+      color: maroon;
+    }
+    &-votes {
+      margin-left: 20px;
+      display: flex;
+      &-count {
+        margin-left: 5px;
+      }
+    }
+  }
+  &-votes {
+    &-up {
+      color: green;
+    }
+    &-down {
+      color: red;
+    }
+    &-count {
+      margin-left: 5px;
+    }
+  }
+  &-description {
+    padding: 30px;
+  }
+  &-screenshot {
+    margin-top: 5px;
+    width: calc((50% - 10px));
+    &:nth-child(even) {
+      margin-left: 10px;
+    }
+  }
+  &-trailer {
+    width: 100%;
+    margin: 20px 0;
+  }
+}
